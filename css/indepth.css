@@ -1,0 +1,682 @@
+#nav-bar-wrapper, #body-wrapper, #top-bar-wrapper, #header{
+	display: none;
+}
+
+.indepth_juan{
+	width: 100em;
+	height: auto;
+	position: fixed;
+	top:15em;
+	left: 15em;
+	opacity: .7;
+	z-index: 900;
+	cursor: pointer;
+}
+
+.indepth_juan:hover{
+	opacity: 1;
+}
+
+#nav-bar-wrapper, #body-wrapper{
+	display: none;
+}
+
+
+
+.indepth_pages{
+	min-width: 960px;
+	position: fixed;
+	overflow: hidden;
+	background-color: white;
+	font-family: 'Roboto';
+	font-size: 1px;
+	margin: auto;
+	text-transform: uppercase;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.indepth_share{
+		position: fixed;
+		right: 15em;
+		top: 15em;
+		z-index: 2000;
+		display: -webkit-inline-box;
+     display: -webkit-inline-flex;
+   display: -moz-inline-box;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
+		
+	}
+	
+	
+	.indepth_share_item{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: rgba(255, 255, 255, 0.2);
+		background-color: rgba(255, 255, 255, 0.4);
+		float: left;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: auto 20px ;
+		margin-left: 7px;
+		cursor: pointer;
+		margin-bottom: 5px;
+	}
+	
+	.indepth_share_item.facebook{
+		background-image: url(../images/boton_facebook.png);
+	}
+	
+	.indepth_share_item.facebook:hover{
+		background-color: #3660A4;
+	}
+	
+	.indepth_share_item.twitter{
+		background-image: url(../images/boton_twitter.png);
+	}
+	
+	.indepth_share_item.twitter:hover{
+		background-color: #02B2F7;
+	}
+	
+	
+	.indepth_share_item.whatsapp{
+		display: none;
+		background-image: url(../images/boton_whatsapp.png);
+	}
+	
+	.indepth_share_item.whatsapp:hover{
+		background-color: #85D86D;
+	}
+
+.indepth_page{
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	margin: auto;
+}
+
+.indepth_page_content{
+	background-color:  white;
+	position: relative;
+}
+
+.indepth_page_body{
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 810px;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.mg_portada{
+	background-image: url(../images/portada.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 10000;
+}
+
+.horizontal_content{
+	display: -webkit-inline-box;
+     display: -webkit-inline-flex;
+   display: -moz-inline-box;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
+	width: auto;
+	height: 756em;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background: transparent;
+	
+}
+
+
+.horizontal_content.back{
+	z-index: 1;
+}
+
+.horizontal_content.front{
+	z-index: 200;
+}
+
+.indepth_estacion{
+	float: left;
+	width: 100%;
+	height: 100%;;
+	background-size: auto 100%;
+	position: relative;
+}
+
+.indepth_nubes{
+	background-image: url(../images/nubes.svg);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 400px;
+	
+}
+
+/***** metro y vias *****/
+#metro{
+	z-index: 51;
+	position: fixed;
+	left: 50em;
+	bottom: 110em;
+	width: 280em;
+}
+
+#metro_vias {
+	width: 100%;
+	height: 224em;
+	background-repeat: repeat-x;
+	position: fixed;
+	z-index: 50;
+	bottom: 0em;
+	background-color: #17746b;
+}
+
+#vias_up{
+	width: 100%;
+	height: 6em;
+	background-color: #e82c5e;
+}
+
+#vias_in{
+	height: 50em;
+	width: 100%;
+	background-color: #9de065;
+}
+
+/***E Elementos generales ***/
+
+.metro_torre{
+	height: 90%;
+	bottom: 0px;
+}
+
+.metro_montana{
+	width: 580px;
+}
+
+
+
+.metro_nivel_1{
+	z-index: 10;
+}
+
+.metro_nivel_2{
+	z-index: 20;
+}
+
+.metro_nivel_3{
+	z-index: 30;
+}
+
+.metro_nivel_4{
+	z-index: 40;
+}
+
+
+
+
+
+.metro_texto_c1{
+	width: 320px;
+	height: auto;
+	position: absolute;
+	display: block;
+	color: white;
+	font-weight: 600;
+
+}
+
+
+.metro_texto_c1 .metro_texto_header{
+	background: #d51b00; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1MWIwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5YjE0MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #d51b00 0%, #9b1400 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d51b00), color-stop(100%,#9b1400)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d51b00 0%,#9b1400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d51b00 0%,#9b1400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d51b00 0%,#9b1400 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d51b00 0%,#9b1400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d51b00', endColorstr='#9b1400',GradientType=0 ); /* IE6-8 */
+	height: 44px;
+	line-height: 44px;
+	width: 100%;
+	font-size: 26px;
+	padding: 0 15px ;
+	
+	
+}
+
+.metro_texto_c1 .metro_texto_content{
+	width: 100%;
+	background: #002449; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMjQ0OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMjIzNDciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #002449 0%, #122347 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002449), color-stop(100%,#122347)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #002449 0%,#122347 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #002449 0%,#122347 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #002449 0%,#122347 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #002449 0%,#122347 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002449', endColorstr='#122347',GradientType=0 ); /* IE6-8 */
+	padding: 15px 15px ;
+
+}
+
+.metro_texto_c1 .metro_texto_normal{
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.metro_texto_c1 .metro_texto_big{
+	font-size: 44px;
+	font-weight: 600;
+	line-height: 46px;
+}
+
+
+.metro_texto_c2{
+	width: 330px;
+	height: auto;
+	position: absolute;
+	display: block;
+	font-weight: 600;
+}
+
+.metro_texto_c2 .metro_texto_header{
+	color: white;
+	background: #080606;
+	font-size: 23px;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 15px;
+}
+
+.metro_texto_c2.rojo .metro_texto_header{
+	background: #d51b00;
+}
+
+.metro_texto_c2 .metro_texto_content{
+	color: #080606;
+	background: white;
+	font-size: 22px;
+	padding: 15px;
+	line-height: 24px;
+}
+
+.metro_texto_c3 .metro_text_left{
+	width: 48em;
+	float: left;
+}
+
+.metro_texto_c3 .metro_text_r{
+	float: left;
+	font-weight: 600;
+
+	
+}
+
+.metro_texto_c3 .metro_texto_big{
+	font-size: 32px;
+	font-weight: 600;
+	padding-left: 25px;
+	line-height: 32px;
+	color: #002449;
+}
+
+.metro_texto_c3 .metro_texto_normal{
+	font-size: 20px;
+	margin-left: 25px;
+	line-height: 20px;
+}
+
+.metro_texto_c4{
+	width: 450px;
+	height: auto;
+	position: absolute;
+	display: block;
+	color: #573A0D;
+	font-weight: 600;
+
+}
+
+
+.metro_texto_c4 .metro_texto_header{
+	background: #B4933F;
+	height: 44px;
+	line-height: 44px;
+	width: 100%;
+	font-size: 22px;
+	padding: 0 15px;	
+}
+
+.metro_texto_c4 .metro_texto_content{
+	width: 100%;
+	background: #F8AB20;
+	padding: 15px 15px ;
+
+}
+
+.metro_texto_c4 .metro_texto_normal{
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.metro_texto_c4 .metro_texto_big{
+	font-size: 44px;
+	font-weight: 600;
+	line-height: 46px;
+	margin-bottom: 10px;
+}
+
+
+
+.metro_video_cont{
+}
+
+.metro_video_cont div {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.metro_video_cont iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: 20;
+}
+
+#estacion6 {
+	
+}
+
+#estacion6 .marquesina{
+	height: 30em;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 15em;
+	z-index: 100;
+}
+
+.marquesina_C{
+	width: 100%;
+	display: inline-block;
+}
+
+.mar1{
+	height: 22em;
+	background-color: #AB6E16;
+}
+
+.mar2{
+	height: 1em;
+	background-color: #B87717;
+}
+
+.mar3{
+	height: 7em;
+	background-color: #DF8E1A;
+}
+
+
+
+/**** Primera estacion ****/
+
+
+
+.elements{
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+}
+
+.metro_pasto{
+	background: #527E3B;
+	height: 135em;
+	bottom: 0;
+	position: absolute;
+	background-image: url(../images/pixel_verde.svg);
+}
+
+#estacion_juan{
+	width: 1200em;
+}
+
+@keyframes cosmicos_flotar{
+  from{
+   transform : translate(0em,0em);
+  }to{
+  transform : translate(0em,50em);}
+}
+
+@-webkit-keyframes cosmicos_flotar{
+  100%{
+   transform : translate(0px,0px);
+  }
+
+  
+   0%{transform : translate(0em,-20px);}
+}
+
+@-moz-keyframes cosmicos_flotar{
+  100%{
+   transform : translate(0px,0px);
+  }
+
+  
+   0%{transform : translate(0em,-20px);}
+}
+
+@-o-keyframes cosmicos_flotar{
+  100%{
+   transform : translate(0px,0px);
+  }
+
+  
+   0%{transform : translate(0em,-20px);}
+}
+
+.cosmico{
+	animation: cosmicos_flotar 1.5s ease infinite alternate;
+	-webkit-animation: cosmicos_flotar 1.5s ease infinite alternate;
+	-moz-animation: cosmicos_flotar 1.5s ease infinite alternate;
+	-o-animation: cosmicos_flotar 1.5s ease infinite alternate;
+}
+
+
+@media screen and (max-width: 1280px){
+#metro{
+
+	height: 90em;
+}
+
+#estacion_juan{
+	width: 900em;
+}
+
+}
+
+
+@media screen and (max-height: 600px){
+	
+	#horizontal_content{
+		height: 360px;
+	}
+	
+	.indepth_share_item.whatsapp{
+		display: block;
+	}
+	
+	.indepth_pages{
+		font-size: .45px;
+	}
+	
+	.metro_texto_c1{
+		width: 140px;
+	}
+	
+	#estacion_juan{
+	width: 1000em;
+}
+
+	
+	.metro_texto_c1 .metro_texto_header{
+		height: 22px;
+		line-height: 22px;
+		font-size: 12px;
+		padding: 0 6px ;		
+	}
+	
+	.metro_texto_c1 .metro_texto_content{
+		padding: 6px 6px ;
+	
+	}
+	
+	.metro_texto_c1 .metro_texto_normal{
+		font-size: 12px;
+		line-height: 12px;
+	}
+	
+	.metro_texto_c1 .metro_texto_big{
+		font-size: 20px;
+		line-height: 22px;
+	}
+	
+	.metro_texto_c2{
+		width: 150px;
+	}
+	
+	.metro_texto_c2 .metro_texto_header{
+		font-size: 11px;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 5px;
+	}
+	
+	.metro_texto_c2 .metro_texto_content{
+		font-size: 10px;
+		padding: 5px;
+		line-height: 11px;
+	}
+	
+	.metro_texto_c3 .metro_text_left{
+		width: 20px;
+	}
+	
+	.metro_texto_c3 .metro_texto_big{
+		font-size: 10px;
+		padding-left: 5px;
+		line-height: 11px;
+	}
+	
+	.metro_texto_c3 .metro_texto_normal{
+		font-size: 9px;
+		margin-left: 5px;
+		line-height: 9px;
+	}
+	
+	
+	.metro_texto_c4{
+	width: 180px;
+
+}
+
+
+.metro_texto_c4 .metro_texto_header{
+	height:22px;
+	line-height: 22px;
+	font-size: 9px;
+	padding: 0 6px;	
+}
+
+.metro_texto_c4 .metro_texto_content{
+	padding: 6px 6px ;
+
+}
+
+.metro_texto_c4 .metro_texto_normal{
+	font-size: 12px;
+	line-height: 13px;
+}
+
+.metro_texto_c4 .metro_texto_big{
+	font-size: 22px;
+	line-height: 23px;
+	margin-bottom: 5px;
+}
+	
+
+}
+
+@media screen and (max-height: 400px){
+	.indepth_pages{
+		font-size: .4px;
+	}
+	
+	.horizontal_content{
+		height: 640em;
+	}
+}
+
+
+@media screen and (max-width: 480px){
+	
+		#horizontal_content{
+		height: 360px;
+	}
+	
+}
+
+/******************* vocho *******************/
+
+.metro_texto_c2 .metro_texto_big{
+	font-size: 65px;
+	font-weight: 600;
+	line-height: 65px;
+	color: #000;
+}
+
+.indepth_asteroides{
+	background-image: url(../images/asteroides.svg);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-height: 600px){
+	.metro_texto_c2 .metro_texto_big {
+	    font-size: 25px;
+	    line-height: 20px;
+	}
+	
+	#drag{
+		display: block;
+	}
+}
+
+
