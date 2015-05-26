@@ -276,6 +276,15 @@
 	color: white;
 }
 
+.indepth_texto_cont.white .indepth_fecha{
+	color: #f2f2f2;
+}
+
+.indepth_texto_cont.white .indepth_texto{
+	color: #fff;
+	font-weight: 400;
+}
+
 .indepth_texto{
 	font-size: 20px;
 	color: #0c3d57;
@@ -287,6 +296,7 @@
 	font-size: 19px;
 	font-weight: 300;
 	color: #175576;
+	text-transform: uppercase;
 }
 
 .indepth_texto_cont.nace .indepth_fecha{
