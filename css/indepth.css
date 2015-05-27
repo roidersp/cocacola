@@ -431,11 +431,11 @@
 @media screen and (max-width: 1280px){
 #metro{
 
-	height: 90em;
+	//height: 90em;
 }
 
 #estacion_juan{
-	width: 900em;
+	//width: 900em;
 }
 
 }
