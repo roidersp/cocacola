@@ -259,7 +259,7 @@
 }
 
 .indepth_texto_cont.muere{
-	background-image: url(../images/General/ICO_NACE2.svg);
+	background-image: url(../images/General/ICO_MUERE1.svg);
 	background-repeat: no-repeat;
 	background-size: 42em auto;
 	background-position: left center;
@@ -304,6 +304,15 @@
 }
 
 .indepth_texto_cont.nace .indepth_texto{
+	color: #fff;
+	font-weight: 400;
+}
+
+.indepth_texto_cont.muere .indepth_fecha{
+	color: #f2f2f2;
+}
+
+.indepth_texto_cont.muere .indepth_texto{
 	color: #fff;
 	font-weight: 400;
 }
