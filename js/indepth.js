@@ -163,7 +163,7 @@ $(document).ready(function(){
     }
 	});
 	}
-	if (window.matchMedia("(orientation: landscape)").matches) {
+	if (/*window.matchMedia("(orientation: landscape)").matches*/true) {
 		indepth_orientacion=false;
 		
 		indepth_skrllr();
@@ -183,7 +183,7 @@ $(document).ready(function(){
 });
 
 window.addEventListener("orientationchange", function() {
-	if(window.orientation == 90 || window.orientation == -90){
+	if(/*window.orientation == 90 || window.orientation == -90*/true){
 		
 var ventana_ancho = $(window).width();
 $(".estacionfinal").css("width",ventana_ancho);
