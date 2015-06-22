@@ -13,7 +13,12 @@ var lastScrollLeft = 0;
 
 
 var ventana_ancho = $(window).width();
+var ventana_alto = $(window).height();
 
+$("#indepth_loading").css({
+	width:ventana_ancho+"px",
+	height:ventana_alto+"px"
+});
 
 $(".estacionfinal").css("width",ventana_ancho);
 
@@ -200,6 +205,11 @@ $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0
 		$(".mg_portada").css("display","block");
 	}
 }, false)
+
+$(window).load(function() {
+		// Animate loader off screen
+		$("#indepth_loading").fadeOut("slow");;
+	});
 
 $(window).on("resize", function(){
 	indepth_sizeAdjust(false);
