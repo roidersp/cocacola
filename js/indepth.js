@@ -10,7 +10,11 @@ var s;
 /***** Manejo de scroll ****/
 var lastScrollLeft = 0;
 
+
+
 var ventana_ancho = $(window).width();
+
+
 $(".estacionfinal").css("width",ventana_ancho);
 
 var t=$(".horizontal_content").outerWidth()-ventana_ancho;
