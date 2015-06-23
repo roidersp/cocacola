@@ -9,9 +9,6 @@ var s;
 
 /***** Manejo de scroll ****/
 var lastScrollLeft = 0;
-
-
-
 var ventana_ancho = $(window).width();
 var ventana_alto = $(window).height();
 
@@ -208,7 +205,7 @@ $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0
 
 $(window).load(function() {
 		// Animate loader off screen
-		$("#indepth_loading").fadeOut("slow");;
+		$("#indepth_loading").fadeOut("slow");
 	});
 
 $(window).on("resize", function(){

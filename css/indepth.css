@@ -10,7 +10,14 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	z-index: 500;
+	z-index: 5000;
+	background-color: #b31b2d;
+}
+
+.indepth_texto_intro span{
+	display: table;
+	font-size: 26px;	
+	color: #4d6979;
 }
 
 .indepth_juan{
