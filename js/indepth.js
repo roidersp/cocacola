@@ -17,7 +17,7 @@ $("#indepth_loading").css({
 	height:ventana_alto+"px"
 });
 
-$(".estacionfinal").css("width",ventana_ancho);
+//$(".estacionfinal").css("width",ventana_ancho);
 
 var t=$(".horizontal_content").outerWidth()-ventana_ancho;
 $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
@@ -194,23 +194,22 @@ window.addEventListener("orientationchange", function() {
 	if(/*window.orientation == 90 || window.orientation == -90*/true){
 		
 var ventana_ancho = $(window).width();
-$(".estacionfinal").css("width",ventana_ancho);
+//$(".estacionfinal").css("width",ventana_ancho);
 
-var t=$(".horizontal_content").outerWidth()-ventana_ancho;
+/*var t=$(".horizontal_content").outerWidth()-ventana_ancho;
 $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
 		indepth_skrllr();
-		$(".mg_portada").css("display","none");
+		$(".mg_portada").css("display","none");*/
 	}else{
 		$(".mg_portada").css("display","block");
 	}
 	
-	alert("cambio");
 	
 	ventana_ancho = $(window).width();
 	 ventana_alto = $(window).height();
 	 var t=$(".horizontal_content").outerWidth()-ventana_ancho;
 $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
-
+//$(".estacionfinal").css("width",ventana_ancho);
 s.refresh();
 
 	

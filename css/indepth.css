@@ -199,6 +199,10 @@
 	width: 380em;
 }
 
+#metro img{
+	display: none;
+}
+
 #metro_vias {
 	width: 100%;
 	height: 224em;
@@ -461,7 +465,7 @@
 }
 
 .indepth_estacion_final_cont{
-	width: 1400px;
+	width: 100%;
 	margin: auto;
 	height: 100%;
 	position: relative;
@@ -480,7 +484,7 @@
 	}
 	
 	.estacionfinal{
-		min-width: 800px;
+		//min-width: 800px;
 	}
 .EL_GENTE{
 		bottom: 280em;
@@ -541,7 +545,7 @@
 }
 
 .indepth_estacion_final_cont{
-	width: 900px;
+	//width: 900px;
 	font-size: .75px;
 }
 
@@ -579,7 +583,7 @@
 }
 
 .indepth_estacion_final_cont{
-	width: 800px;
+	//width: 800px;
 	font-size: .70px;
 }
 
