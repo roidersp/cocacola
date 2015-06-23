@@ -212,6 +212,10 @@ $(window).on("resize", function(){
 	indepth_sizeAdjust(false);
 	 ventana_ancho = $(window).width();
 	 ventana_alto = $(window).height();
+	 var t=$(".horizontal_content").outerWidth()-ventana_ancho;
+$(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
+
+indepth_skrllr();
 	$(".mg_portada").css("height",$(window).height()+"px");
 	$(".mg_portada").css("width",$(window).width()+"px");
 })
