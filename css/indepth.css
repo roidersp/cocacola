@@ -482,7 +482,9 @@
 	.estacionfinal{
 		min-width: 800px;
 	}
-
+.EL_GENTE{
+		bottom: 280em;
+	}
 
 @media screen and (max-height: 750px){
 	.indepth_pages{
