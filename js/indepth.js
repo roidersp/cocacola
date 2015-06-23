@@ -210,6 +210,8 @@ $(window).load(function() {
 
 $(window).on("resize", function(){
 	indepth_sizeAdjust(false);
+	 ventana_ancho = $(window).width();
+	 ventana_alto = $(window).height();
 	$(".mg_portada").css("height",$(window).height()+"px");
 	$(".mg_portada").css("width",$(window).width()+"px");
 })
