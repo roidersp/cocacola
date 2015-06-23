@@ -204,12 +204,14 @@ $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0
 		$(".mg_portada").css("display","block");
 	}
 	
+	alert("cambio");
+	
 	ventana_ancho = $(window).width();
 	 ventana_alto = $(window).height();
 	 var t=$(".horizontal_content").outerWidth()-ventana_ancho;
 $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
 
-indepth_skrllr();
+s.refresh();
 
 	
 }, false)
