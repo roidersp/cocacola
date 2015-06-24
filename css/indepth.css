@@ -21,16 +21,6 @@
 	margin: auto;
 }
 
-.indepth_ie_texto{
-	width: 90%;
-	max-width: 700px;
-	color: white;
-	font-size: 22px;
-	margin: auto;
-	margin-bottom: 40px;
-	font-style: 'Roboto';
-}
-
 .indepth_not_ie_tias{
 	width: 90%;
 	max-width: 700px;
@@ -154,8 +144,8 @@
 		top: 15em;
 		z-index: 2000;
 		display: -webkit-inline-box;
-		display: -webkit-inline-flex;
-	 	display: -moz-inline-box;
+     display: -webkit-inline-flex;
+   display: -moz-inline-box;
      
      display: inline-flex;
      display: -ms-inline-flexbox;
@@ -247,6 +237,7 @@
 	display: -webkit-inline-box;
      display: -webkit-inline-flex;
    display: -moz-inline-box;
+     
      display: inline-flex;
      display: -ms-inline-flexbox;
 	width: auto;
@@ -1019,14 +1010,3 @@
 }
 
 
-@media screen\0 {
-    #indepth_not_ie{
-	
-	display: table;
-}
-
-	.horizontal_content{
-		display: block;
-	}
-
-}

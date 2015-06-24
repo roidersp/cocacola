@@ -9,8 +9,9 @@
 		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,700" rel="stylesheet" type="text/css">
 		<script src="js/skrollr.min.js"></script>
 		
-
-		
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
+			<![endif]-->
 		
 		<style>
 			html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, au
@@ -38,7 +39,7 @@
 		</style>
 	</head>
 	<body>
-		<link type="text/css" rel="stylesheet" href="css/indepth.css?v=1.0.19"/>
+		<link type="text/css" rel="stylesheet" href="css/indepth.css?v=1.0.16"/>
 		<div class="indepth_pages" data-0="background-color:rgb(136, 208, 242);">
 			
 			
@@ -47,9 +48,6 @@
 			    #indepth_not_ie{
 				 	display:table;
 				 }
-				 .horizontal_content{
-					 display:block;
-					 }
 			  </style>
 			<![endif]-->
 		
@@ -69,9 +67,7 @@
 							<a href="" class="indepth_boton_e e_firefox"><div></div></a>
 							<a href="" class="indepth_boton_e e_safari"><div></div></a>
 						</div>
-						<div class="indepth_ie_texto">
-							Por cuestiones técnicas este contenido no se puede visualizar en internet explorer. Te recomiendo descargues otro navegador para visualizarlo.
-						</div>
+						<img class="indepth_not_ie_tias" src="images/Inicio/BTN_TIAS.png" alt="BTN_TIAS" >
 						<div class="ie_juan"> <img  src="images/Inicio/EL_JUANFUTBOLEXPLORER.png" alt="EL_JUANFUTBOLEXPLORER" ></div>
 					</div>
 				</div>
@@ -97,8 +93,6 @@
 				<img   src="images/Autos/COCHE_10.svg" data-_box-0p="display:none;" data-_box-17100p="display:block;" data-_box-19900p="transform:translate(0em,0em);" data-_box-19990p="transform:translate(-500em,0em)"/>
 			</div>
 			
-			
-			
 			<div id="metro_vias">
 				<div id="vias_up"></div>
 				<div id="vias_in"></div>
@@ -107,7 +101,7 @@
 			<div class="mg_portada"></div>
 			
 			<div class="horizontal_content back" 
-			>
+			data-0="transform:translate(0px,0%);">
 				<div id="estacion0" class="indepth_estacion" style="width: 1000em;">
 					<div id="indepth_logo" class="elements" style="left:100em;top:40em;"><img  src="images/Inicio/EL_LOGO100.png"  /></div>
 					<div class="indepth_texto_intro elements" style="width: 725em;left: 100em;top: 160em;">
@@ -968,7 +962,7 @@
 			</div>
 			
 			<div class="horizontal_content front" 
-			
+			data-0="transform:translate(0px,0%);"
 			style="z-index: 51">
 				<div id="estacion0" class="indepth_estacion" style="width: 1000em;">
 				</div>
@@ -1035,7 +1029,7 @@
 			
 			
 			<div class="horizontal_content front" 
-			
+			data-0="transform:translate(0px,0%);"
 			style="z-index: 100">
 				
 				<div id="estacion0" class="indepth_estacion" style="width: 1000em;">
@@ -1597,7 +1591,7 @@
 
 		<scripts>
 			<script src="js/skrollr.min.js"></script>
-			<script type="text/javascript" src="js/indepth.js?v=1.0.24"></script>
+			<script type="text/javascript" src="js/indepth.js?v=1.0.21"></script>
 		</scripts>
 	</body>
 </html>

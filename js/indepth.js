@@ -39,7 +39,6 @@ $(document).on("click","#voltea", function(){
 //$(".estacionfinal").css("width",ventana_ancho);
 
 var t=$(".horizontal_content").outerWidth()-ventana_ancho;
-
 $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
 
 window.addEventListener("load",function() {
