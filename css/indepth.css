@@ -245,12 +245,7 @@
 
 .horizontal_content{
 	display: block;
-	display: -webkit-inline-box;
-     display: -webkit-inline-flex;
-   display: -moz-inline-box;
-     
-     display: inline-flex;
-     display: -ms-inline-flexbox;
+	
 	width: auto;
 	height: 756em;
 	position: fixed;
