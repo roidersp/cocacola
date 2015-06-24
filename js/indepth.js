@@ -20,6 +20,8 @@ $("#indepth_not_ie").css({
 
 
 
+
+
 $("#indepth_loading").css({
 	width:ventana_ancho+"px",
 	height:ventana_alto+"px"
@@ -186,6 +188,11 @@ $(document).ready(function(){
     }
 	});
 	}
+	
+	if (window.matchMedia("(orientation: landscape)").matches) {
+		$("#voltea").hide();
+	}
+	
 	if (/*window.matchMedia("(orientation: landscape)").matches*/true) {
 		indepth_orientacion=false;
 		
