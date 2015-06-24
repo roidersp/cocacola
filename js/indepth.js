@@ -12,10 +12,27 @@ var lastScrollLeft = 0;
 var ventana_ancho = $(window).width();
 var ventana_alto = $(window).height();
 
+$("#indepth_not_ie").css({
+	width:ventana_ancho+"px",
+	height:ventana_alto+"px"
+});
+
+
+
+
 $("#indepth_loading").css({
 	width:ventana_ancho+"px",
 	height:ventana_alto+"px"
 });
+
+$("#voltea").css({
+	width:ventana_ancho+"px",
+	height:ventana_alto+"px"
+});
+
+$(document).on("click","#voltea", function(){
+	$(this).hide();
+})
 
 //$(".estacionfinal").css("width",ventana_ancho);
 
@@ -190,7 +207,9 @@ $(document).ready(function(){
 
 window.addEventListener("orientationchange", function() {
 	
-	
+	if(window.orientation == 90 || window.orientation == -90){
+		$("#voltea").hide();
+	}
 	if(/*window.orientation == 90 || window.orientation == -90*/true){
 		
 var ventana_ancho = $(window).width();
@@ -218,10 +237,27 @@ s.refresh();
 $(window).load(function() {
 		// Animate loader off screen
 		$("#indepth_loading").fadeOut("slow");
+
 	});
 
 $(window).on("resize", function(){
 	indepth_sizeAdjust(false);
 	 	$(".mg_portada").css("height",$(window).height()+"px");
 	$(".mg_portada").css("width",$(window).width()+"px");
+	var ventana_ancho = $(window).width();
+var ventana_alto = $(window).height();
+	$("#indepth_not_ie").css({
+	width:ventana_ancho+"px",
+	height:ventana_alto+"px"
+});
+
+$("#indepth_loading").css({
+	width:ventana_ancho+"px",
+	height:ventana_alto+"px"
+});
+
+$("#voltea").css({
+	width:ventana_ancho+"px",
+	height:ventana_alto+"px"
+});
 })

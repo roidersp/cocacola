@@ -2,6 +2,79 @@
 	display: none;
 }
 
+#indepth_not_ie{
+	width: 100%;
+	height: 1000px;
+	background: black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 6000;
+	background-image: url(../images/Inicio/FONDO_EXPLORER.jpg);
+	background-size: cover;
+	background-position: left bottom;
+	display: none;
+}
+
+.ie_juan{
+	width: 150px;
+	margin: auto;
+}
+
+.indepth_not_ie_tias{
+	width: 90%;
+	max-width: 700px;
+	margin-bottom: 40px;
+}
+.indepth_not_ie_cont{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.indepth_not_ie_in{
+	margin: auto;
+	display: table;
+}
+
+.indepth_not_ie_botones{
+	display: table;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.indepth_boton_e div{
+	width: 130px;
+	height: 110px;
+	display: inline-block;
+	background-image: url(../images/Inicio/BTN_Chrome.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+.e_firefox div{
+	background-image: url(../images/Inicio/BTN_Firefox.png);
+}
+
+.e_safari div{
+	background-image: url(../images/Inicio/BTN_Safari.png);
+}
+
+#voltea{
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 100%;
+	height: 800px;
+	z-index: 4000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../images/Inicio/EL_DISPOSITIVO.png);
+	background-size: 70% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
 #indepth_loading{
 	background-image: url(../images/A-Landing.gif);
 	background-position: center center;
@@ -12,6 +85,8 @@
 	top: 0;
 	z-index: 5000;
 	background-color: #b31b2d;
+	width: 100%;
+	height: 1000px;
 }
 
 .indepth_texto_intro span{
@@ -422,37 +497,116 @@
 }
 
 @keyframes cosmicos_flotar{
-  from{
+  0%{
    transform : translate(0em,0em);
-  }to{
-  transform : translate(0em,50em);}
+  }100%{
+  transform : translate(0em,-900em);}
 }
 
 @-webkit-keyframes cosmicos_flotar{
-  100%{
-   transform : translate(0px,0px);
+ 0%{
+   transform : translate(0em,0em);
+  }100%{
+  transform : translate(0em,-900em);}
   }
-
-  
-   0%{transform : translate(0em,-20px);}
-}
 
 @-moz-keyframes cosmicos_flotar{
-  100%{
-   transform : translate(0px,0px);
+ 0%{
+   transform : translate(0em,0em);
+  }100%{
+  transform : translate(0em,-900em);}
   }
-
-  
-   0%{transform : translate(0em,-20px);}
-}
 
 @-o-keyframes cosmicos_flotar{
-  100%{
-   transform : translate(0px,0px);
-  }
-
+ 0%{
+   transform : translate(0em,3em);
+  }100%{
+  transform : translate(0em,-3em);}}
   
-   0%{transform : translate(0em,-20px);}
+  @keyframes cosmicos_flotar1{
+0%{
+   transform : translate(0em,3em);
+  }100%{
+  transform : translate(0em,-3em);}}
+
+@-webkit-keyframes cosmicos_flotar1{
+0%{
+   transform : translate(0em,3em);
+  }100%{
+  transform : translate(0em,-3em);}}
+
+@-moz-keyframes cosmicos_flotar1{
+0%{
+   transform : translate(0em,3em);
+  }100%{
+  transform : translate(0em,-3em);}}
+
+@-o-keyframes cosmicos_flotar1{
+0%{
+   transform : translate(0em,3em);
+  }100%{
+  transform : translate(0em,-3em);}}
+  
+    @keyframes saltar{
+0%{
+   transform : translate(0em,0em);
+  }25%{
+  transform : translate(0em,-3em);
+  }50%{
+  transform : translate(0em,0em);
+  }100%{
+  transform : translate(0em,-2em);
+  }
+ }
+
+@-webkit-keyframes saltar{
+0%{
+   transform : translate(0em,0em);
+  }25%{
+  transform : translate(0em,-3em);
+  }50%{
+  transform : translate(0em,0em);
+  }100%{
+  transform : translate(0em,-2em);
+  }
+ }
+
+@-moz-keyframes saltar{
+0%{
+   transform : translate(0em,0em);
+  }25%{
+  transform : translate(0em,-3em);
+  }50%{
+  transform : translate(0em,0em);
+  }100%{
+  transform : translate(0em,-2em);
+  }
+ }
+@-o-keyframes saltar{
+0%{
+   transform : translate(0em,0em);
+  }25%{
+  transform : translate(0em,-3em);
+  }50%{
+  transform : translate(0em,0em);
+  }100%{
+  transform : translate(0em,-2em);
+  }
+ }
+
+
+.EL_GENTE{
+	animation: saltar 1s ease-out infinite;
+	-webkit-animation: saltar 1s ease-out infinite;
+	-moz-animation: saltar 1s ease-out infinite;
+	-o-animation: saltar 1s ease-out infinite;
+}
+
+.indepth_img_center{
+	animation: saltar 1.3s ease-out infinite;
+	-webkit-animation: saltar 1.3s ease-out infinite;
+	-moz-animation: saltar 1.3s ease-out infinite;
+	-o-animation: saltar 1.3s ease-out infinite;
 }
 
 .cosmico{

@@ -9,6 +9,10 @@
 		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,700" rel="stylesheet" type="text/css">
 		<script src="js/skrollr.min.js"></script>
 		
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
+			<![endif]-->
+		
 		<style>
 			html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, au
 			dio, video {
@@ -23,11 +27,11 @@
 			}  
 			
 			
-			#estacion1,#estacion2,#estacion3, #estacion4, #estacion5, #estacion6, #estacion7, #estacion8,#estacion9,#estacion10{
-				display: block;
+			#estacion0,#estacion1,#estacion2,#estacion3, #estacion4, #estacion5, #estacion6, #estacion7, #estacion8,#estacion9,#estacion10{
+				display: none;
 			}
 			
-			#estacion0,#estacion1,#estacion2,#estacion3,#estacion4,#estacion5,#estacion6,#estacion7,#estacion8,#estacion9{
+			#estacion0,#estacion1,#estacion2,#estacion3,#estacion4,#estacion5,#estacion6,#estacion7,#estacion8,#estacion9,#estacion10{
 				display: block;
 			}
 			
@@ -35,11 +39,38 @@
 		</style>
 	</head>
 	<body>
-		<link type="text/css" rel="stylesheet" href="css/indepth.css?v=1.0.14"/>
+		<link type="text/css" rel="stylesheet" href="css/indepth.css?v=1.0.15"/>
 		<div class="indepth_pages" data-0="background-color:rgb(136, 208, 242);">
+			
+			
+			<!--[if IE]>
+			  <style type="text/css">
+			    #indepth_not_ie{
+				 	display:table;
+				 }
+			  </style>
+			<![endif]-->
 		
 			<div id="indepth_loading">
 				
+			</div>
+			
+			<div id="voltea">
+				
+			</div>
+			
+			<div id="indepth_not_ie">
+				<div class="indepth_not_ie_cont">
+					<div class="indepth_not_ie_in">
+						<div class="indepth_not_ie_botones">
+							<a href="" class="indepth_boton_e e_chrome"><div></div></a>
+							<a href="" class="indepth_boton_e e_firefox"><div></div></a>
+							<a href="" class="indepth_boton_e e_safari"><div></div></a>
+						</div>
+						<img class="indepth_not_ie_tias" src="images/Inicio/BTN_TIAS.png" alt="BTN_TIAS" >
+						<div class="ie_juan"> <img  src="images/Inicio/EL_JUANFUTBOLEXPLORER.png" alt="EL_JUANFUTBOLEXPLORER" ></div>
+					</div>
+				</div>
 			</div>
 		
 			<div class="indepth_share">
@@ -58,8 +89,8 @@
 				<img   src="images/Autos/COCHE_6.svg" data-_box-0p="display:none;" data-_box-9150p="display:block" data-_box-11420p="display:none;"/>
 				<img   src="images/Autos/COCHE_7.svg" data-_box-0p="display:none;" data-_box-11420p="display:block" data-_box-12680p="display:none;"/>
 				<img   src="images/Autos/COCHE_8.svg" data-_box-0p="display:none;" data-_box-12680p="display:block" data-_box-14500p="display:none;"/>
-				<img   src="images/Autos/COCHE_9.svg" data-_box-0p="display:none;" data-_box-14500p="display:block" data-_box-17000p="display:none;"/>
-				<img   src="images/Autos/COCHE_10.svg" data-_box-0p="display:none;" data-_box-17000p="display:block" data-_box-19990p="display:none;"/>
+				<img   src="images/Autos/COCHE_9.svg" data-_box-0p="display:none;" data-_box-14500p="display:block" data-_box-17100p="display:none;"/>
+				<img   src="images/Autos/COCHE_10.svg" data-_box-0p="display:none;" data-_box-17100p="display:block;" data-_box-19900p="transform:translate(0em,0em);" data-_box-19990p="transform:translate(-500em,0em)"/>
 			</div>
 			
 			<div id="metro_vias">
@@ -840,6 +871,7 @@
 						<div class="indepth_texto">lanzamiento de Coca Cola Zero</div>
 
 					</div>
+					<img src="images/Decada10/EL_64.svg" class="elements" style="left: 3340em; width: 630em; bottom: 220em;"/>
 					
 					<img src="images/Decada10/EL_62.svg" class="elements" style="bottom: 500em; left: 135em; width: 230em;"
 						data-_box-0p=" transform:translate(0em, 0em) ; " 
@@ -975,7 +1007,7 @@
 					
 						  />
 						  
-						  <div class="indepth_texto_cont" style="left: 3925em;bottom:360em; width: 280em;">
+						  <div class="indepth_texto_cont" style="left: 3925em;bottom:380em; width: 280em;">
 							<div class="indepth_fecha">8 / ago / 2008</div>
 							<div class="indepth_texto">Bolt se convierte en el hombre más rápido del mundo. Marca: 100 metros en 9,58 segundos </div>
 						</div>
@@ -1295,7 +1327,7 @@
 				</div>
 				
 				<div id="estacion7" class="indepth_estacion" style="width: 5800em;">
-					<img src="images/Decada7/El_32.svg" class="elements" style="left:0em;bottom:-110em;width:400em"/>
+					<img src="images/Decada7/EL_32.svg" class="elements" style="left:0em;bottom:-110em;width:400em"/>
 					<!--<div class="indepth_texto_cont white" style="left: 280em;top:600em; width: 240em;">
 						<div class="indepth_fecha">19 / sep / 1923</div>
 						<div class="indepth_texto">Clavadista </div>
@@ -1473,7 +1505,7 @@
 						<div class="indepth_fecha">11 / jun / 2009</div>
 						<div class="indepth_texto">Cristiano Ronaldo al Madrid, fichaje más caro del mundo. 94 millones de euros</div>
 					</div>
-					<img src="images/Decada10/EL_64.svg" class="elements" style="left: 3340em; width: 630em; bottom: 130em;"/>
+					
 					
 					
 					
@@ -1534,15 +1566,16 @@
 						<img src="images/Final/EL_MESA2.svg" class="elements" style="width: 190em;right: 120em; bottom: 0em;"/>
 						
 						<div class="elements" style="width: 100%;height: 100%;bottom: 0;left: 0;">
-							<div class="" style="width: 800px;height: 100%;margin: auto;position: relative;">
-								
+							<div class="globos" style="width: 800px;height: 100%;margin: auto;position: relative;" data-_box-19400p="animation: none;animation-duration:15s;" data-_box-19990p="animation-name: cosmicos_flotar;  animation-duration:15s;">
+								<img src="images/Final/EL_CIEN.svg" class="elements" style="width: 250em;left: 0em; bottom: 150em;"/>
+								<img src="images/Final/EL_CIENANOS.svg" class="elements" style="width: 280em;right: 0em; bottom: 150em;"/>
 							</div>
 						</div>
 						
 						<div class="elements" style="width: 100%;height: 100%;bottom: 0;left: 0;">
 						<div class="botellas" style="width: 390em;height: 100%;margin: auto;position: relative;z-index: 20">
-							<img src="images/Final/EL_67.svg" class="elements" style="width: 180em;left: 0em; bottom: 100em;"/>
-							<img src="images/Final/EL_68.svg" class="elements" style="width: 200em;right: 0em; bottom: 100em;"/>
+							<img class="indepth_botella_izq elements" src="images/Final/EL_67.svg"  style="width: 180em;left: 0em; bottom: 100em;"/>
+							<img class="indepth_botella_der elements" src="images/Final/EL_68.svg" style="width: 200em;right: 0em; bottom: 100em;"/>
 						</div>
 						</div>
 					</div>
@@ -1558,7 +1591,7 @@
 
 		<scripts>
 			<script src="js/skrollr.min.js"></script>
-			<script type="text/javascript" src="js/indepth.js?v=1.0.19"></script>
+			<script type="text/javascript" src="js/indepth.js?v=1.0.20"></script>
 		</scripts>
 	</body>
 </html>
