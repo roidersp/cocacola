@@ -21,6 +21,16 @@
 	margin: auto;
 }
 
+.indepth_ie_texto{
+	width: 90%;
+	max-width: 700px;
+	color: white;
+	font-size: 22px;
+	margin: auto;
+	margin-bottom: 40px;
+	font-style: 'Roboto';
+}
+
 .indepth_not_ie_tias{
 	width: 90%;
 	max-width: 700px;
@@ -144,8 +154,8 @@
 		top: 15em;
 		z-index: 2000;
 		display: -webkit-inline-box;
-     display: -webkit-inline-flex;
-   display: -moz-inline-box;
+		display: -webkit-inline-flex;
+	 	display: -moz-inline-box;
      
      display: inline-flex;
      display: -ms-inline-flexbox;
@@ -234,6 +244,7 @@
 }
 
 .horizontal_content{
+	display: block;
 	display: -webkit-inline-box;
      display: -webkit-inline-flex;
    display: -moz-inline-box;
