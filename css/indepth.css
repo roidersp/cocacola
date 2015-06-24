@@ -244,7 +244,6 @@
 }
 
 .horizontal_content{
-	display: block;
 	display: -webkit-inline-box;
      display: -webkit-inline-flex;
    display: -moz-inline-box;
