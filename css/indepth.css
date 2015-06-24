@@ -2,6 +2,13 @@
 	display: none;
 }
 
+.desliza_indepth{
+	width: 122em;
+	left: 900em;
+	bottom: 120em;
+	display: none;
+}
+
 #indepth_not_ie{
 	width: 100%;
 	height: 1000px;
@@ -780,6 +787,10 @@
 	.indepth_texto_cont{
 		z-index: 500;
 	}
+	
+	.desliza_indepth{
+		display: block;
+	}
 }
 
 
@@ -966,6 +977,12 @@
 		display: table; 
 		transform: translate(-75em,0em);
 	}
+	
+	.desliza_indepth{
+		width: 70em;
+		left: 200em;
+		bottom: 380em;
+}
 	
 }
 
