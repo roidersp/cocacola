@@ -1010,3 +1010,10 @@
 }
 
 
+@media screen\0 {
+    #indepth_not_ie { display:  table; }
+    
+    .horizontal_content{
+	    display: block;
+    }
+}
