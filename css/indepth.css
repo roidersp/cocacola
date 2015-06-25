@@ -609,7 +609,119 @@
   transform : translate(0em,-2em);
   }
  }
+ 
+     @keyframes botella_izq{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
 
+@-webkit-keyframes botella_izq{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
+
+@-moz-keyframes botella_izq{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
+@-o-keyframes botella_izq{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
+ 
+      @keyframes botella_der{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(-5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
+
+@-webkit-keyframes botella_der{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(-5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
+
+@-moz-keyframes botella_der{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(-5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
+@-o-keyframes botella_der{
+0%{
+   transform : translate(0em,0em) rotate(0deg);
+  }25%{
+  transform : translate(0em,0em) rotate(-5deg);
+  }50%{
+  transform : translate(0em,0em) rotate(0deg);
+  }100%{
+  transform : translate(0em,0em) rotate(0deg);
+  }
+ }
+
+.goblos.animated{
+	animation-name: cosmicos_flotar;  
+	animation-duration:15s;
+}
+
+.indepth_botella_izq{
+	animation: botella_izq 4s ease-out infinite;
+	-webkit-animation: botella_izq 4s ease-out infinite;
+	-moz-animation: botella_izq 4s ease-out infinite;
+	-o-animation: botella_izq 4s ease-out infinite;
+}
+
+.indepth_botella_der{
+	animation: botella_der 4s ease-out infinite;
+	-webkit-animation: botella_der 4s ease-out infinite;
+	-moz-animation: botella_der 4s ease-out infinite;
+	-o-animation: botella_der 4s ease-out infinite;
+}
 
 .EL_GENTE{
 	animation: saltar 1s ease-out infinite;

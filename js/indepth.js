@@ -186,6 +186,12 @@ $(document).ready(function(){
     }else{
         $('html, body').scrollLeft(documentScrollTop);
     }
+    
+	/*console.log(s.getScrollTop());
+	if(s.getScrollTop() >= 197500){
+		$(".globos").addClass("animated");
+	}*/
+    
 	});
 	}
 	
