@@ -781,10 +781,12 @@
 .EL_GENTE{
 		bottom: 280em;
 	}
+	
+	
 
-@media screen and (max-height: 750px){
+@media screen and (max-height: 800px){
 	.indepth_pages{
-		font-size: .9px;
+		font-size: .95px;
 	}
 	
 	
@@ -806,23 +808,26 @@
 	width: 1000em;
 }
 
-	.FON_MONTANA3{
-		bottom: 40em;
-	}
+
+
 	
-	.EL_GENTE{
-		bottom: 350em;
-	}
-	
-	.EL_BOCINA{
-		bottom: 280em;
-	}
-	
-	.indepth_img_center{
-	bottom: 280em;
+
+
+#indepth_logo{
+	width: 650px;
 }
 
+.indepth_pages{
+		font-size: .9px;
+	}
 
+
+}
+
+@media screen and (min-height: 1000px){
+	.indepth_pages{
+		font-size: 1.05px;
+	}
 }
 
 @media screen and (max-width: 1000px){
@@ -839,13 +844,7 @@
 	//width: 900px;
 }
 
-	.FON_MONTANA3{
-		bottom: 50em;
-	}
-	
-	.EL_GENTE{
-		bottom: 370em;
-	}
+
 	
 	.EL_BOCINA{
 		bottom: 300em;
@@ -933,7 +932,7 @@
 	}
 	
 	.indepth_pages{
-		font-size: .45px;
+		font-size: .7px;
 	}
 	
 	.indepth_texto_cont{

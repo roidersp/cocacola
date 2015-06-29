@@ -18,7 +18,7 @@ $("#indepth_not_ie").css({
 });
 
 
-
+$(".estacionfinal").css("width",ventana_ancho);
 
 
 
@@ -52,7 +52,7 @@ window.addEventListener("load",function() {
 
 var indepth_skrllr=function(){
 	 s = skrollr.init();
-	 $("body").css("width",($("body").outerHeight()+800)+"px");
+	 $("body").css("width",($("body").outerHeight()+(ventana_ancho)/2)+"px");
 }
 
 var indepth_sizeAdjust = function(firstTime){
@@ -239,7 +239,7 @@ $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0
 	
 	ventana_ancho = $(window).width();
 	 ventana_alto = $(window).height();
-	 var t=$(".horizontal_content").outerWidth()-ventana_ancho;
+t=$(".horizontal_content").outerWidth()-ventana_ancho+(ventana_ancho*.1);
 $(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
 //$(".estacionfinal").css("width",ventana_ancho);
 s.refresh();
@@ -263,6 +263,13 @@ var ventana_alto = $(window).height();
 	width:ventana_ancho+"px",
 	height:ventana_alto+"px"
 });
+
+$(".estacionfinal").css("width",ventana_ancho);
+
+t=$(".horizontal_content").outerWidth()-ventana_ancho;
+$(".horizontal_content").attr("data-_box-20000p","transform:translate(-"+t+"px,0%);");
+//$(".estacionfinal").css("width",ventana_ancho);
+s.refresh();
 
 $("#indepth_loading").css({
 	width:ventana_ancho+"px",
