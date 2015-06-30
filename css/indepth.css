@@ -1027,6 +1027,10 @@
 		width: 1400em;
 	}
 	
+	.text3{
+		bottom: 10em
+	}
+	
 	.estacionfinal11{
 		transform: translate(0,100em);
 	}
