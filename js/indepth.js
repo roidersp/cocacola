@@ -187,8 +187,8 @@ $(document).ready(function(){
         $('html, body').scrollLeft(documentScrollTop);
     }
     
-	/*console.log(s.getScrollTop());
-	if(s.getScrollTop() >= 197500){
+	console.log(s.getScrollTop());
+	/*if(s.getScrollTop() >= 197500){
 		$(".globos").addClass("animated");
 	}*/
     
