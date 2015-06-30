@@ -273,11 +273,12 @@
 	position: relative;
 }
 
-.indepth_nubes{
-	background-image: url(../images/nubes.svg);
+#indepth_nubes{
+	background-image: url(../images/General/EL_NUBES.svg);
 	background-repeat: repeat-x;
-	width: 100%;
-	height: 400px;
+	width: 800%;
+	height: 400em;
+	
 	position: absolute;
 	top: 0;
 	
@@ -752,6 +753,79 @@
   }100%{
   transform : scale(1.2); -webkit-transform : scale(1.2); -moz-transform : scale(1.2); -o-transform : scale(1.2);
   }
+ }
+ 
+      @keyframes globos_ani{
+0%{
+   transform : translate(0em,0em); -webkit-transform : translate(0em,0em); -moz-transform : translate(0em,0em); -o-transform : translate(0em,0em);
+  }25%{
+  transform : translate(-2em,3em); -webkit-transform : translate(-2em,3em); -moz-transform : translate(-2em,3em); -o-transform : translate(-2em,3em);
+  }
+  35%{
+  transform : translate(0em,1em); -webkit-transform : translate(0em,1em); -moz-transform : translate(0em,1em); -o-transform : translate(0em,1em);
+  }50%{
+  transform : translate(2em,-2em); -webkit-transform : translate(2em,-2em); -moz-transform : translate(2em,-2em); -o-transform : translate(2em,-2em);
+  }100%{
+  transform : translate(1em,1em); -webkit-transform : translate(1em,1em); -moz-transform : translate(1em,1em); -o-transform : translate(1em,1em);
+  }
+ }
+
+@-webkit-keyframes globos_ani{
+0%{
+   transform : translate(0em,0em); -webkit-transform : translate(0em,0em); -moz-transform : translate(0em,0em); -o-transform : translate(0em,0em);
+  }25%{
+  transform : translate(-2em,3em); -webkit-transform : translate(-2em,3em); -moz-transform : translate(-2em,3em); -o-transform : translate(-2em,3em);
+  }
+  35%{
+  transform : translate(0em,1em); -webkit-transform : translate(0em,1em); -moz-transform : translate(0em,1em); -o-transform : translate(0em,1em);
+  }50%{
+  transform : translate(2em,-2em); -webkit-transform : translate(2em,-2em); -moz-transform : translate(2em,-2em); -o-transform : translate(2em,-2em);
+  }100%{
+  transform : translate(1em,1em); -webkit-transform : translate(1em,1em); -moz-transform : translate(1em,1em); -o-transform : translate(1em,1em);
+  }
+ }
+
+@-moz-keyframes globos_ani{
+0%{
+   transform : translate(0em,0em); -webkit-transform : translate(0em,0em); -moz-transform : translate(0em,0em); -o-transform : translate(0em,0em);
+  }25%{
+  transform : translate(-2em,3em); -webkit-transform : translate(-2em,3em); -moz-transform : translate(-2em,3em); -o-transform : translate(-2em,3em);
+  }
+  35%{
+  transform : translate(0em,1em); -webkit-transform : translate(0em,1em); -moz-transform : translate(0em,1em); -o-transform : translate(0em,1em);
+  }50%{
+  transform : translate(2em,-2em); -webkit-transform : translate(2em,-2em); -moz-transform : translate(2em,-2em); -o-transform : translate(2em,-2em);
+  }100%{
+  transform : translate(1em,1em); -webkit-transform : translate(1em,1em); -moz-transform : translate(1em,1em); -o-transform : translate(1em,1em);
+  }
+ }
+@-o-keyframes globos_ani{
+0%{
+   transform : translate(0em,0em); -webkit-transform : translate(0em,0em); -moz-transform : translate(0em,0em); -o-transform : translate(0em,0em);
+  }25%{
+  transform : translate(-2em,3em); -webkit-transform : translate(-2em,3em); -moz-transform : translate(-2em,3em); -o-transform : translate(-2em,3em);
+  }
+  35%{
+  transform : translate(0em,1em); -webkit-transform : translate(0em,1em); -moz-transform : translate(0em,1em); -o-transform : translate(0em,1em);
+  }50%{
+  transform : translate(2em,-2em); -webkit-transform : translate(2em,-2em); -moz-transform : translate(2em,-2em); -o-transform : translate(2em,-2em);
+  }100%{
+  transform : translate(1em,1em); -webkit-transform : translate(1em,1em); -moz-transform : translate(1em,1em); -o-transform : translate(1em,1em);
+  }
+ }
+ 
+ .golbos1{
+	 animation: globos_ani 3s ease-out infinite;
+	-webkit-animation: globos_ani 3s ease-out infinite;
+	-moz-animation: globos_ani 3s ease-out infinite;
+	-o-animation: globos_ani 3s ease-out infinite;
+ }
+ 
+  .golbos2{
+	 animation: globos_ani 5s ease-out infinite;
+	-webkit-animation: globos_ani 5s ease-out infinite;
+	-moz-animation: globos_ani 5s ease-out infinite;
+	-o-animation: globos_ani 5s ease-out infinite;
  }
 
 .goblos.animated{
