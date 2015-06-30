@@ -12,6 +12,33 @@ var lastScrollLeft = 0;
 var ventana_ancho = $(window).width();
 var ventana_alto = $(window).height();
 
+
+SC.initialize({
+	  client_id: 'ff60196d10842b1462519a0fd1a76f79'
+	});
+
+	// stream track id 293
+	SC.stream("/tracks/212715163", function(sound){
+		
+	  SC.sound = sound;
+	});
+	
+	
+$(document).on("click","#play",function(){
+			console.log("play");
+			 SC.sound.play();
+			 $("#play").hide();
+			 $("#pause").show();
+		});
+		
+		$(document).on("click","#pause",function(){
+			console.log("pause");
+			 SC.sound.pause();
+			 $("#pause").hide();
+			  $("#play").show();
+			 
+		});
+
 $("#indepth_not_ie").css({
 	width:ventana_ancho+"px",
 	height:ventana_alto+"px"
@@ -162,6 +189,8 @@ $(".mg_portada").css("width",$(window).width()+"px");
  $('html, body').scrollLeft(0);
  $('html, body').scrollTop(0);
 
+
+
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
 	if(mobile){
@@ -187,13 +216,15 @@ $(document).ready(function(){
         $('html, body').scrollLeft(documentScrollTop);
     }
     
-	console.log(s.getScrollTop());
+	//console.log(s.getScrollTop());
 	/*if(s.getScrollTop() >= 197500){
 		$(".globos").addClass("animated");
 	}*/
     
 	});
 	}
+	
+	
 	
 	if (window.matchMedia("(orientation: landscape)").matches) {
 		$("#voltea").hide();

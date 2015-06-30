@@ -817,6 +817,47 @@
   }
  }
  
+     @keyframes play_ani{
+0%{
+   transform : scale(1); -webkit-transform : scale(1); -moz-transform : scale(1); -o-transform : scale(1);
+  }100%{
+  transform : scale(1.2); -webkit-transform : scale(1.2); -moz-transform : scale(1.2); -o-transform : scale(1.2);
+  }
+ }
+
+@-webkit-keyframes play_ani{
+0%{
+   transform : scale(1); -webkit-transform : scale(1); -moz-transform : scale(1); -o-transform : scale(1);
+  
+  }100%{
+  transform : scale(1.2); -webkit-transform : scale(1.2); -moz-transform : scale(1.2); -o-transform : scale(1.2);
+  }
+ }
+
+@-moz-keyframes play_ani{
+0%{
+   transform : scale(1); -webkit-transform : scale(1); -moz-transform : scale(1); -o-transform : scale(1);
+  
+  }100%{
+  transform : scale(1.2); -webkit-transform : scale(1.2); -moz-transform : scale(1.2); -o-transform : scale(1.2);
+  }
+ }
+@-o-keyframes play_ani{
+0%{
+   transform : scale(1); -webkit-transform : scale(1); -moz-transform : scale(1); -o-transform : scale(1);
+
+  }100%{
+  transform : scale(1.2); -webkit-transform : scale(1.2); -moz-transform : scale(1.2); -o-transform : scale(1.2);
+  }
+ }
+ 
+ #play{
+	 animation: play_ani 1s ease-out infinite alternate;
+	-webkit-animation: play_ani 1s ease-out infinite alternate;
+	-moz-animation: play_ani 1s ease-out infinite alternate;
+	-o-animation: play_ani 1s ease-out infinite alternate;
+ }
+ 
  .golbos1{
 	 animation: globos_ani 3s ease-out infinite;
 	-webkit-animation: globos_ani 3s ease-out infinite;
