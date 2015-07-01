@@ -1,95 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 162 230.8" enable-background="new 0 0 162 230.8" xml:space="preserve">
-<g>
-	<polygon fill="#E2222A" points="38.2,152.2 5.7,174.8 25.3,184.5 24.2,215 52.4,206.3 59,230.8 75.8,211.2 88.3,229.5 86.1,185.9 	
-		"/>
-	<polygon fill="#F6D011" points="44.5,155.4 22.3,170.8 35.7,177.3 34.9,198.1 54.1,192.2 58.6,208.8 70,195.5 78.5,208 77,178.3 	
-		"/>
-	<g>
-		<polygon fill="#A62123" points="29.6,151.5 93.3,188.6 93.8,183.6 33.6,148.6 		"/>
-		<polygon fill="#A62123" points="24.1,155.4 92.7,195.4 93.2,190.3 28.2,152.5 		"/>
-		<polygon fill="#A62123" points="95.6,167.7 44.4,140.5 40.8,143 94.9,174.5 		"/>
-		<polygon fill="#A62123" points="39.4,144 35.4,147 94.3,181.3 94.8,176.2 		"/>
-		<polygon fill="#515252" points="28.2,152.5 93.2,190.3 93.3,188.6 29.6,151.5 		"/>
-		<polygon fill="#515252" points="33.6,148.6 93.8,183.6 94.3,181.3 35.4,147 		"/>
-		<polygon fill="#515252" points="94.9,174.5 40.8,143 39.4,144 94.8,176.2 		"/>
+	 viewBox="0 0 155.9 362.1" style="enable-background:new 0 0 155.9 362.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E41F29;}
+	.st1{fill:#F7D10D;}
+	.st2{fill:#A72122;}
+	.st3{fill:#515151;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#B3B3B3;}
+	.st6{fill:#57C3B3;}
+	.st7{fill:none;}
+	.st8{fill:#CCCCCC;}
+	.st9{fill:#FFFF00;}
+	.st10{fill:#22B573;}
+	.st11{fill:#999999;}
+	.st12{fill:#D7CDBB;}
+	.st13{fill:#BBB7A6;}
+	.st14{fill:#C98857;}
+	.st15{fill:#FEF2DD;}
+</style>
+<g id="XMLID_14_">
+	<polygon id="XMLID_82_" class="st0" points="33.3,272.2 8.6,325.1 40.7,322.9 61.9,362.5 91.3,330.6 117.9,356.9 124.7,319.5 
+		154.3,333.6 119.2,279.7 	"/>
+	<polygon id="XMLID_81_" class="st1" points="43.6,271.7 26.8,307.6 48.6,306.1 63,333.1 83,311.4 101.1,329.2 105.7,303.8 
+		125.8,313.4 102,276.8 	"/>
+	<g id="XMLID_73_">
+		<polygon id="XMLID_12_" class="st2" points="21.7,278.3 130.3,278.3 127.3,271.3 24.7,271.3 		"/>
+		<polygon id="XMLID_11_" class="st2" points="17.6,287.3 134.6,287.3 131.5,280.3 20.7,280.3 		"/>
+		<polygon id="XMLID_10_" class="st2" points="117.7,249.8 32.4,253.3 29.8,259.3 122,259.3 		"/>
+		<polygon id="XMLID_9_" class="st2" points="28.7,261.3 25.8,268.3 126.2,268.3 123.1,261.3 		"/>
+		<polygon id="XMLID_8_" class="st3" points="20.7,280.3 131.5,280.3 130.3,278.3 21.7,278.3 		"/>
+		<polygon id="XMLID_7_" class="st3" points="24.7,271.3 127.3,271.3 126.2,268.3 25.8,268.3 		"/>
+		<polygon id="XMLID_6_" class="st3" points="122,259.3 29.8,259.3 28.7,261.3 123.1,261.3 		"/>
 	</g>
-	<polygon fill="#FFFFFF" points="136.8,95.2 143.8,65.1 113.9,47.6 91.2,68.7 31.8,123.6 118.3,174 	"/>
-	<polygon fill="#E2222A" points="70.8,156.1 116.4,182.6 118.3,174 31.8,123.6 25.2,129.6 	"/>
-	<polygon fill="#E2222A" points="157.3,7.5 113.9,47.6 143.8,65.1 	"/>
-	<circle fill="#FFFFFF" cx="119.1" cy="47.6" r="1.7"/>
-	<circle fill="#FFFFFF" cx="33.6" cy="129.8" r="1.7"/>
-	<circle fill="#FFFFFF" cx="40.7" cy="134" r="1.7"/>
-	<circle fill="#FFFFFF" cx="47.9" cy="138.1" r="1.7"/>
-	<circle fill="#FFFFFF" cx="55" cy="142.3" r="1.7"/>
-	<circle fill="#FFFFFF" cx="62.1" cy="146.5" r="1.7"/>
-	<circle fill="#FFFFFF" cx="69.3" cy="150.6" r="1.7"/>
-	<circle fill="#FFFFFF" cx="76.4" cy="154.8" r="1.7"/>
-	<circle fill="#FFFFFF" cx="83.6" cy="158.9" r="1.7"/>
-	<circle fill="#FFFFFF" cx="90.7" cy="163.1" r="1.7"/>
-	<circle fill="#FFFFFF" cx="97.8" cy="167.2" r="1.7"/>
-	<circle fill="#FFFFFF" cx="105" cy="171.4" r="1.7"/>
-	<circle fill="#FFFFFF" cx="112.1" cy="175.5" r="1.7"/>
-	<circle fill="#FFFFFF" cx="124.3" cy="50.6" r="1.7"/>
-	<circle fill="#FFFFFF" cx="129.6" cy="53.7" r="1.7"/>
-	<circle fill="#FFFFFF" cx="134.9" cy="56.8" r="1.7"/>
-	<circle fill="#FFFFFF" cx="140.2" cy="59.9" r="1.7"/>
-	<circle fill="#B3B2B3" cx="104.6" cy="96.7" r="21.9"/>
-	<circle fill="#58C1B2" cx="104.6" cy="96.8" r="17.7"/>
-	<g>
-		<defs>
-			<circle id="SVGID_1_" cx="104.6" cy="96.8" r="17.7"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  overflow="visible"/>
-		</clipPath>
-		<g clip-path="url(#SVGID_2_)">
-			<path fill="#7D4924" d="M105.7,88.7c0,0,3-1.5,3.8-4.8c0,0-4.2-0.9-7.2,0.7L105.7,88.7z"/>
-			<path fill="#FDF2DD" d="M111.4,106.2c0,0-1.8,2.2-3.6,0.7c-0.1-0.1-0.1-0.1-0.2-0.2c0,0-2.2,1.5-5.5-1.1
-				c-3.3-2.6-5.5-5.3-7.9-5.2c-2.4,0.1-6.1,4-6.2,3.6c0-0.4-3.9-6.2-3.9-6.2l10.3-10.4C94.4,87.5,112,102.8,111.4,106.2z"/>
-			<path fill="#FDF2DD" d="M105.8,86.8c0,0,3.6,2.6,3.1,7.6c-0.4,5.1,2.5,10.4,2.5,10.4s-7.5-8.1-11.5-10.4s-6.4-2.6-10.7,1.1
-				c-3.2,2.8-4.3,3.8-4.4,3.6c-0.2-0.2-7.4-8.5-7.4-8.5S93.1,75.2,105.8,86.8z"/>
-			<path fill="#C88757" d="M104,86.7c0,0,3.8,2.8,3,6.9c-0.9,4.1,3.2,9.1,1.8,10.9s-1.4,1.8-1.4,1.8l0.1,0.4c0,0-0.9,1.5-4.2-0.2
-				s-5.2-4.6-7.5-5.6c-2.3-1-6.2-1.2-9.6-7.3c0,0,9.1-3.7,11.1-7.9C99.3,81.4,104,86.7,104,86.7z"/>
-			<path fill="#515252" d="M111.8,105.6c-0.3-1.8-1.6-1.9-1.6-1.9s-0.7,0.6-0.5,1.5S112.1,106.8,111.8,105.6z"/>
-			<path fill="#A15F34" d="M103.4,87.6c0,0,3.5-4.3,0.7-11.7c0,0-6.3,2.8-7.9,8.9C96.2,84.8,99.7,88.5,103.4,87.6z"/>
-			<path fill="#A15F34" d="M104.5,76.8c0,0-4.1,1.4-6.6,7.4c0,0-0.7-0.7-0.4-2.4c0,0,2.5-4.4,6.7-5.9L104.5,76.8z"/>
-			<path fill="#FDF2DD" d="M103.3,78.6c0,0-2.3,0.7-4.8,6.1l1.9,1.4l2.3-0.7C102.7,85.4,103.8,82.3,103.3,78.6z"/>
-			<path fill="#545358" d="M107.3,106.6l0.3-0.5c0,0-4.5-3.2-7.7-6.7c0,0,4.1,5.2,7.3,6.9L107.3,106.6z"/>
-		</g>
+	<polygon id="XMLID_5_" class="st4" points="116.4,126.5 103.2,83.3 52.1,83.3 38.8,126.6 3.9,240.3 151.3,240.3 	"/>
+	<polygon id="XMLID_4_" class="st0" points="77.6,253.3 155.3,253.3 151.3,240.3 3.9,240.3 0,253.3 	"/>
+	<polygon id="XMLID_3_" class="st0" points="77.6,0 52.1,83.3 103.2,83.3 	"/>
+	<circle id="XMLID_69_" class="st4" cx="58.6" cy="79.2" r="2.5"/>
+	<circle id="XMLID_68_" class="st4" cx="10.8" cy="247.2" r="2.5"/>
+	<circle id="XMLID_67_" class="st4" cx="23" cy="247.2" r="2.5"/>
+	<circle id="XMLID_66_" class="st4" cx="35.1" cy="247.2" r="2.5"/>
+	<circle id="XMLID_65_" class="st4" cx="47.3" cy="247.2" r="2.5"/>
+	<circle id="XMLID_64_" class="st4" cx="59.5" cy="247.2" r="2.5"/>
+	<circle id="XMLID_63_" class="st4" cx="71.6" cy="247.2" r="2.5"/>
+	<circle id="XMLID_62_" class="st4" cx="83.8" cy="247.2" r="2.5"/>
+	<circle id="XMLID_61_" class="st4" cx="95.9" cy="247.2" r="2.5"/>
+	<circle id="XMLID_60_" class="st4" cx="108.1" cy="247.2" r="2.5"/>
+	<circle id="XMLID_59_" class="st4" cx="120.3" cy="247.2" r="2.5"/>
+	<circle id="XMLID_58_" class="st4" cx="132.4" cy="247.2" r="2.5"/>
+	<circle id="XMLID_57_" class="st4" cx="144.6" cy="247.2" r="2.5"/>
+	<circle id="XMLID_56_" class="st4" cx="67.6" cy="79.2" r="2.5"/>
+	<circle id="XMLID_55_" class="st4" cx="76.6" cy="79.2" r="2.5"/>
+	<circle id="XMLID_54_" class="st4" cx="85.6" cy="79.2" r="2.5"/>
+	<circle id="XMLID_53_" class="st4" cx="94.6" cy="79.2" r="2.5"/>
+	<circle id="XMLID_52_" class="st5" cx="76.6" cy="152.5" r="32.2"/>
+	<circle id="XMLID_51_" class="st6" cx="76.7" cy="152.5" r="26"/>
+	<circle id="XMLID_50_" class="st7" cx="76.7" cy="152.5" r="26"/>
+	<rect id="XMLID_49_" x="97" y="199" class="st8" width="32.9" height="29.8"/>
+	<circle id="XMLID_48_" class="st0" cx="102.9" cy="204.5" r="2.3"/>
+	<circle id="XMLID_47_" class="st0" cx="59.9" cy="107.5" r="2.3"/>
+	<circle id="XMLID_46_" class="st9" cx="108.9" cy="204.5" r="2.3"/>
+	<circle id="XMLID_45_" class="st10" cx="115.9" cy="204.5" r="2.3"/>
+	<circle id="XMLID_44_" class="st9" cx="92.9" cy="94.5" r="2.3"/>
+	<circle id="XMLID_43_" class="st10" cx="99.9" cy="94.5" r="2.3"/>
+	<circle id="XMLID_42_" class="st10" cx="54.9" cy="107.5" r="2.3"/>
+	<rect id="XMLID_41_" x="100.6" y="209.7" class="st11" width="26.7" height="2.2"/>
+	<rect id="XMLID_40_" x="100.6" y="213.8" class="st11" width="26.7" height="2.2"/>
+	<rect id="XMLID_39_" x="100.6" y="218" class="st11" width="26.7" height="2.2"/>
+	<rect id="XMLID_38_" x="100.6" y="222.1" class="st11" width="26.7" height="2.2"/>
+	<rect id="XMLID_37_" x="35.1" y="192.5" class="st8" width="7.1" height="39"/>
+	<rect id="XMLID_36_" x="33.1" y="196.7" class="st11" width="9.1" height="2.2"/>
+	<rect id="XMLID_35_" x="33.1" y="203.3" class="st11" width="9.1" height="2.2"/>
+	<rect id="XMLID_34_" x="33.1" y="210" class="st11" width="9.1" height="2.2"/>
+	<rect id="XMLID_33_" x="33.1" y="216.6" class="st11" width="9.1" height="2.2"/>
+	<rect id="XMLID_32_" x="33.1" y="223.2" class="st11" width="9.1" height="2.2"/>
+	<rect id="XMLID_31_" x="33.1" y="229.8" class="st11" width="9.1" height="2.2"/>
+	<path id="XMLID_30_" class="st12" d="M69.8,158.1c-1.3,1.1-2.8,7.2-2.8,18.4c0,0,11.2,5.9,24.8-2.6c0,0-1.4-9.2-10.1-15.5
+		L69.8,158.1z"/>
+	<path id="XMLID_29_" class="st13" d="M69.3,160.8c0,0,0.1,4.1,2.1,6.6c1.6,1.9,6,3.2,8.8-0.3c2.2-2.8,2-7.1,2-7.1
+		S70.6,157.5,69.3,160.8z"/>
+	<g id="XMLID_17_">
+		<path id="XMLID_28_" class="st14" d="M65.4,150.2c0,0-0.3,4.2,3.6,8.4c2.2,2.4,3.4,5.1,3.9,6.9c0.4,1.3,1.7,2.2,3.2,2.2l0,0
+			c1.5,0,2.8-0.9,3.2-2.2c0.7-2.2,2-5.4,3.9-7.1c1-0.9,1.7-2.1,2.3-3.5c2.5-6-2.4-12.6-9.3-12.7c-0.1,0-0.2,0-0.3,0
+			C66,142.2,65.4,150.2,65.4,150.2z"/>
+		<ellipse id="XMLID_27_" class="st3" cx="70.9" cy="153" rx="1.1" ry="1.1"/>
+		<ellipse id="XMLID_26_" class="st3" cx="80.9" cy="153" rx="1.1" ry="1.1"/>
+		<path id="XMLID_2_" class="st14" d="M78,167c0,0,2.9-2.7,3.9-3.7h-0.8l3.5-2.7l-1.8,0.5c0,0,3.3-2.4,4.5-4l-2,0.4
+			c0,0,2.5-1.9,3.1-5.1l-2.6,1.3l-0.2-3l-3.3,6.1c0,0-1.9,4-3.1,6.1C78.4,164.3,78,167,78,167z"/>
+		<path id="XMLID_1_" class="st14" d="M73.8,167c0,0-2.9-2.7-3.9-3.7h0.8l-3.5-2.7l1.8,0.5c0,0-3.3-2.4-4.5-4l2,0.4
+			c0,0-3.2-3.1-3.5-5.4l3,1.6l0.2-3l3.3,6.1c0,0,1.9,4,3.1,6.1C73.4,164.3,73.8,167,73.8,167z"/>
+		<path id="XMLID_23_" class="st15" d="M73.8,148.8c0,0,0.8,3.6,0,4.8c-0.8,1.2,0.3,7.1,0.3,7.1s-3.4-0.1-2.5,4.2
+			c1.9,2,1.9,2.8,4.4,2.8s3.9-2.5,3.9-2.5s0.9-4.3-3.1-4.5c0,0,1.5-5.1,0.7-7.1c-0.6-1.5-0.3-3.8,0.3-4.8l-2.2-3.2L73.8,148.8z"/>
+		<path id="XMLID_22_" class="st3" d="M74.9,162.2h2.3c0.4,0,0.6,0.5,0.3,0.8l-0.9,0.8c-0.4,0.3-0.9,0.3-1.2-0.1l-0.7-0.8
+			C74.3,162.7,74.5,162.2,74.9,162.2z"/>
+		<path id="XMLID_21_" class="st14" d="M79,145.1c0,0,1.8-5.8,11.8-7.6c0,0,1.8,6.2-5.2,13.4C85.5,150.8,80,148.5,79,145.1z"/>
+		<path id="XMLID_20_" class="st14" d="M74,145c0,0-1.9-5.7-11.9-7.4c0,0-1.6,6.3,5.5,13.3C67.6,150.8,73,148.3,74,145z"/>
+		<path id="XMLID_19_" class="st15" d="M69.4,145c0,0-0.4-3.5-5.8-5.3c0,0-0.2,3.5,3.6,6.9C67.2,146.6,68.6,145.6,69.4,145z"/>
+		<path id="XMLID_18_" class="st15" d="M83.4,144.6c0,0,0.8-3.5,6.4-4.5c0,0-0.2,3.5-4.4,6.4C85.4,146.5,84.2,145.3,83.4,144.6z"/>
 	</g>
-	
-		<rect x="94.1" y="135.2" transform="matrix(0.8642 0.5031 -0.5031 0.8642 87.402 -33.2178)" fill="#CCCBCB" width="22.3" height="20.2"/>
-	<circle fill="#E2222A" cx="102.2" cy="136.2" r="1.6"/>
-	<circle fill="#E2222A" cx="110.1" cy="64.6" r="1.6"/>
-	<circle fill="#F5EA14" cx="105.7" cy="138.2" r="1.6"/>
-	<circle fill="#22B473" cx="109.9" cy="140.6" r="1.6"/>
-	<circle fill="#F5EA14" cx="133.9" cy="68.2" r="1.6"/>
-	<circle fill="#22B473" cx="138.1" cy="70.6" r="1.6"/>
-	<circle fill="#22B473" cx="107.2" cy="62.9" r="1.6"/>
-	
-		<rect x="97.5" y="143" transform="matrix(0.8642 0.5031 -0.5031 0.8642 86.7735 -34.0895)" fill="#979797" width="18.1" height="1.5"/>
-	
-		<rect x="96.1" y="145.4" transform="matrix(0.8642 0.5031 -0.5031 0.8642 87.8001 -33.0517)" fill="#979797" width="18.1" height="1.5"/>
-	
-		<rect x="94.7" y="147.8" transform="matrix(0.8642 0.5031 -0.5031 0.8642 88.8268 -32.0138)" fill="#979797" width="18.1" height="1.5"/>
-	
-		<rect x="93.2" y="150.2" transform="matrix(0.8642 0.5031 -0.5031 0.8642 89.8535 -30.976)" fill="#979797" width="18.1" height="1.5"/>
-	
-		<rect x="59.6" y="105.4" transform="matrix(-0.8642 -0.5031 0.5031 -0.8642 55.8692 252.4165)" fill="#CCCBCB" width="4.8" height="26.5"/>
-	
-		<rect x="63.1" y="109.3" transform="matrix(0.8642 0.5031 -0.5031 0.8642 64.3512 -18.3793)" fill="#979797" width="6.2" height="1.5"/>
-	
-		<rect x="60.9" y="113.2" transform="matrix(0.8642 0.5031 -0.5031 0.8642 66.0001 -16.7126)" fill="#979797" width="6.2" height="1.5"/>
-	
-		<rect x="58.6" y="117" transform="matrix(0.8642 0.5031 -0.5031 0.8642 67.6489 -15.0458)" fill="#979797" width="6.2" height="1.5"/>
-	
-		<rect x="56.3" y="120.9" transform="matrix(0.8642 0.5031 -0.5031 0.8642 69.2978 -13.379)" fill="#979797" width="6.2" height="1.5"/>
-	
-		<rect x="54.1" y="124.8" transform="matrix(0.8642 0.5031 -0.5031 0.8642 70.9467 -11.7122)" fill="#979797" width="6.2" height="1.5"/>
-	
-		<rect x="51.8" y="128.7" transform="matrix(0.8642 0.5031 -0.5031 0.8642 72.5956 -10.0454)" fill="#979797" width="6.2" height="1.5"/>
+	<path id="XMLID_16_" class="st14" d="M83.4,160c0,0,7.6,7.1,7.9,14.4l2.3-1.6c0,0-3.1-10.6-9.5-14.2L83.4,160z"/>
+	<path id="XMLID_15_" class="st14" d="M89.4,165.9c0,0,3.2-1.1,2.3-6.7l0.9,0.4c0,0,1.2-4.4-0.7-8l1.2,0.6c0,0,1.8-3.4-0.2-6.7
+		c0,0,4.1,0.5,4.2,7.4c0,0,0.9-1.2,1.5-1c0,0-1.7,3.2-1.4,4.9c0,0,1.4-1.1,1.8,0.4c0,0-3.4,3.7-3.4,6.7c0,0,0.9-0.7,1.6-0.1
+		c0,0-5.4,3.6-5,7.7L89.4,165.9z"/>
 </g>
 </svg>
