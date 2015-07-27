@@ -1,4 +1,4 @@
-#nav-bar-wrapper, #body-wrapper, #top-bar-wrapper, #header{
+#nav-bar-wrapper, #body-wrapper, #top-bar-wrapper, #header, #recommended-wrapper {
 	display: none;
 }
 
@@ -202,6 +202,13 @@
 	
 	.indepth_share_item.whatsapp:hover{
 		background-color: #85D86D;
+	}
+	.indepth_share_item.juanfutbol{
+		background-image: url(../images/boton_juanfutbol.png);
+	}
+	
+	.indepth_share_item.juanfutbol:hover{
+		background-color: #a7cf2b;
 	}
 
 .indepth_page{
@@ -1285,7 +1292,14 @@
 	width: 100%;
 	height: 100%;
 }
-
+#btn_final{
+	background-image: url("../images/Final/BTN UneteFinal.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#btn_final:hover{
+	background-image: url("../images/Final/BTN UneteFinalOVER.png");
+}
 @media screen and (max-height: 600px){
 	.metro_texto_c2 .metro_texto_big {
 	    font-size: 25px;
