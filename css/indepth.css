@@ -1293,12 +1293,12 @@
 	height: 100%;
 }
 #btn_final{
-	background-image: url("../images/Final/BTN UneteFinal.png");
+	background-image: url("../images/Final/BTN_UneteFinal.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 #btn_final:hover{
-	background-image: url("../images/Final/BTN UneteFinalOVER.png");
+	background-image: url("../images/Final/BTN_UneteFinalOVER.png");
 }
 @media screen and (max-height: 600px){
 	.metro_texto_c2 .metro_texto_big {
