@@ -205,6 +205,7 @@
 	}
 	.indepth_share_item.juanfutbol{
 		background-image: url(../images/boton_juanfutbol.png);
+		background-size: auto 28px ;
 	}
 	
 	.indepth_share_item.juanfutbol:hover{
